@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"strings"
 	"time"
 
 	"github.com/eserilev/utilities.winc.services/winc_csv"
@@ -38,7 +37,7 @@ func UploadPendingJSON() {
 		fileContent := GetFileContent(file, pendingJsonPath)
 		if fileContent != nil {
 			json.Unmarshal(fileContent, &campaign)
-			start, end := UpdateContent(*campaign)
+			start, end := UpdateCampaignFileContent(*campaign)
 			if first {
 				first = false
 				*minStartDate = start
@@ -54,10 +53,9 @@ func UploadPendingJSON() {
 		}
 		os.Rename(pendingJsonPath+file.Name(), archiveJsonPath+file.Name())
 	}
-
 }
 
-func UpdateContent(campaign Campaign) (time.Time, time.Time) {
+func UpdateCampaignFileContent(campaign Campaign) (time.Time, time.Time) {
 	const layoutISO = "2006-01-02"
 	startDate, err := time.Parse(layoutISO, campaign.StartDate)
 	if err != nil {
@@ -86,8 +84,7 @@ func UpdateContent(campaign Campaign) (time.Time, time.Time) {
 
 func UpdateDefault(campaign Campaign, pathArray [5]string) {
 	campaignFile := new(CampaignFile)
-	campaignFilePath := strings.Join(pathArray[0:], "/")
-	campaignFilePath = campaignFilePath + "/index.json"
+	campaignFilePath := CreateCampaignFilePath(pathArray)
 
 	campaignFileBytes, err := ioutil.ReadFile(campaignFilePath)
 	if err != nil {
@@ -114,7 +111,33 @@ func UpdateDefault(campaign Campaign, pathArray [5]string) {
 }
 
 func UpdateCampaign(campaign Campaign, pathArray [5]string) {
+	campaignFile := new(CampaignFile)
+	campaignContent := new(CampaignContent)
+	campaignFilePath := CreateCampaignFilePath(pathArray)
 
+	campaignFileBytes, err := ioutil.ReadFile(campaignFilePath)
+	if err != nil {
+		campaignFileBytes = CreateNewCampaignFile(campaignFilePath)
+	}
+
+	json.Unmarshal(campaignFileBytes, &campaignFile)
+
+	campaignContent.V = campaign.Content.V
+	campaignContent.B = campaign.Content.B
+	campaignContent.C = campaign.Content.C
+	campaignContent.P = campaign.Content.P
+
+	campaignFile.Campaigns[campaign.Campaign] = *campaignContent
+
+	campaignFileJson, err := json.MarshalIndent(campaignFile, "", "\t")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	err = ioutil.WriteFile(campaignFilePath, campaignFileJson, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 func CreateCampaignJSON(record []string) {

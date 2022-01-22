@@ -67,8 +67,10 @@ func CreateFilePathArray(root string, date time.Time, campaign Campaign) [5]stri
 	return pathArray
 }
 
-func UpdateCampaignFile() {
-
+func CreateCampaignFilePath(pathArray [5]string) string {
+	campaignFilePath := strings.Join(pathArray[0:], "/")
+	campaignFilePath = contentRootPath + campaignFilePath + "/index.json"
+	return campaignFilePath
 }
 
 func CreateNewCampaignFile(filePath string) []byte {
