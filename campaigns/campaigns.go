@@ -5,13 +5,15 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
 	"time"
 
 	"github.com/eserilev/utilities.winc.services/winc_csv"
 )
 
 func Upload() {
-
+	start, end := UpdateCampaignFiles()
+	UploadCampaignFilesToS3(start, end)
 }
 
 func BatchUpload(filePath string) {
@@ -19,15 +21,18 @@ func BatchUpload(filePath string) {
 	for _, campaign := range campaigns[1:] {
 		CreateCampaignJSON(campaign)
 	}
-	UpdateCampaignFiles()
-	UploadCampaignFilesToS3()
+	start, end := UpdateCampaignFiles()
+	UploadCampaignFilesToS3(start, end)
+
+	fileName := path.Base(filePath)
+	os.Rename(filePath, archiveCsvPath+fileName)
 }
 
-func UploadCampaignFilesToS3() {
+func UploadCampaignFilesToS3(start time.Time, end time.Time) {
 
 }
 
-func UpdateCampaignFiles() {
+func UpdateCampaignFiles() (time.Time, time.Time) {
 	minStartDate := new(time.Time)
 	maxEndDate := new(time.Time)
 	first := true
@@ -58,6 +63,7 @@ func UpdateCampaignFiles() {
 		}
 		os.Rename(pendingJsonPath+file.Name(), archiveJsonPath+file.Name())
 	}
+	return *minStartDate, *maxEndDate
 }
 
 func UpdateCampaignFileContent(campaign Campaign) (time.Time, time.Time) {
@@ -104,7 +110,6 @@ func UpdateDefault(campaign Campaign, pathArray [5]string) {
 	campaignFile.P = campaign.Content.P
 
 	campaignFileJson, err := json.MarshalIndent(campaignFile, "", "\t")
-
 	if err != nil {
 		log.Fatal(err)
 	}

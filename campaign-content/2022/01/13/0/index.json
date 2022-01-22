@@ -1,0 +1,303 @@
+{
+	"debug": "",
+	"v": "New Year’s Special! Get 4 Bottles for $24.95",
+	"p": "default25",
+	"b": [],
+	"c": [],
+	"campaigns": {
+		"2799099": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D001ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799101": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D002ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799102": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D002ga-m",
+			"b": [],
+			"c": []
+		},
+		"2799103": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D003ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799112": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D009ga-b",
+			"b": [],
+			"c": []
+		},
+		"2799119": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D011ga-m",
+			"b": [],
+			"c": []
+		},
+		"2799120": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D012ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799125": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D015ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799126": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D015ga-m",
+			"b": [],
+			"c": []
+		},
+		"2799127": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D016ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799128": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D016ga-m",
+			"b": [],
+			"c": []
+		},
+		"2799129": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D017ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799130": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D017ga-m",
+			"b": [],
+			"c": []
+		},
+		"2799131": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D018ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799134": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D019ga-m",
+			"b": [],
+			"c": []
+		},
+		"2799162": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "M015ga-e",
+			"b": [],
+			"c": []
+		},
+		"2799170": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "M019ga-e",
+			"b": [],
+			"c": []
+		},
+		"3490259": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0014ga",
+			"b": [],
+			"c": []
+		},
+		"3490261": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0015ga",
+			"b": [],
+			"c": []
+		},
+		"3505998": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0017ga",
+			"b": [],
+			"c": []
+		},
+		"3568515": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0019ga",
+			"b": [],
+			"c": []
+		},
+		"3860475": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0036ga",
+			"b": [],
+			"c": []
+		},
+		"3894218": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0039ga",
+			"b": [],
+			"c": []
+		},
+		"3901285": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D029ga-e",
+			"b": [],
+			"c": []
+		},
+		"3950709": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0042ga",
+			"b": [],
+			"c": []
+		},
+		"4035917": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0055ga",
+			"b": [],
+			"c": []
+		},
+		"4314913": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D010ga-e",
+			"b": [],
+			"c": []
+		},
+		"4314933": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0082ga",
+			"b": [],
+			"c": []
+		},
+		"4314941": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0083ga",
+			"b": [],
+			"c": []
+		},
+		"4314951": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0084ga",
+			"b": [],
+			"c": []
+		},
+		"4314970": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0085ga",
+			"b": [],
+			"c": []
+		},
+		"4994332": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0114ga",
+			"b": [],
+			"c": []
+		},
+		"5322533": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0127ga",
+			"b": [],
+			"c": []
+		},
+		"5322545": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0128ga",
+			"b": [],
+			"c": []
+		},
+		"5322562": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0131ga",
+			"b": [],
+			"c": []
+		},
+		"6065819": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0226ga",
+			"b": [],
+			"c": []
+		},
+		"6081969": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0234ga",
+			"b": [],
+			"c": []
+		},
+		"6081970": {
+			"v": "New Member Offer! Get 4 Bottles for $29.95",
+			"p": "D0236ga",
+			"b": [],
+			"c": []
+		},
+		"6319573": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00443FB",
+			"b": [],
+			"c": []
+		},
+		"6319749": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00451FB",
+			"b": [],
+			"c": []
+		},
+		"6319827": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00459FB",
+			"b": [],
+			"c": []
+		},
+		"6333527": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "RoktxNewYear",
+			"b": [],
+			"c": []
+		},
+		"6342144": {
+			"v": "Get 4 bottles for $24.95 + shipping’s on us!",
+			"p": "poplar2",
+			"b": [],
+			"c": []
+		},
+		"6403928": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00535FB",
+			"b": [],
+			"c": []
+		},
+		"6403931": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00536FB",
+			"b": [],
+			"c": []
+		},
+		"6403935": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00537FB",
+			"b": [],
+			"c": []
+		},
+		"6403939": {
+			"v": "New Year’s Special! Get 4 Bottles of Low Sugar Wine for $24.95.",
+			"p": "00538FB",
+			"b": [],
+			"c": []
+		},
+		"6488508": {
+			"v": "New Year’s Special! Get 4 Bottles for $29.95",
+			"p": "poplarjan22",
+			"b": [],
+			"c": []
+		},
+		"6520396": {
+			"v": "Ride Alto Member Exclusive! Get 4 Bottles for $24.95 + Shipping Included",
+			"p": "RideAltoxWincExclusive",
+			"b": [],
+			"c": []
+		}
+	}
+}
