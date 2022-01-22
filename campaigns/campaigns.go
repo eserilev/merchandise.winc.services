@@ -19,10 +19,15 @@ func BatchUpload(filePath string) {
 	for _, campaign := range campaigns[1:] {
 		CreateCampaignJSON(campaign)
 	}
-	UploadPendingJSON()
+	UpdateCampaignFiles()
+	UploadCampaignFilesToS3()
 }
 
-func UploadPendingJSON() {
+func UploadCampaignFilesToS3() {
+
+}
+
+func UpdateCampaignFiles() {
 	minStartDate := new(time.Time)
 	maxEndDate := new(time.Time)
 	first := true
@@ -143,6 +148,10 @@ func UpdateCampaign(campaign Campaign, pathArray [5]string) {
 func CreateCampaignJSON(record []string) {
 	campaign := CreateCampaign(record)
 	fileName := campaign.StartDate + "-" + campaign.EndDate + "-" + campaign.Campaign + "-" + campaign.Status + ".json"
+
+	if !CampaignContentSpellCheck(campaign) {
+		log.Fatal("Spellcheck FAILED!: " + campaign.Campaign)
+	}
 
 	content, err := json.MarshalIndent(campaign, "", "\t")
 	if err != nil {

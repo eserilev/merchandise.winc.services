@@ -8,6 +8,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/client9/misspell"
 )
 
 func GetDoubleDigitString(number int) string {
@@ -94,4 +96,44 @@ func CreateNewCampaignFile(filePath string) []byte {
 	}
 
 	return file
+}
+
+func CampaignContentSpellCheck(campaign Campaign) bool {
+	spellCheckArray := []string{}
+
+	spellCheckArray = append(spellCheckArray, campaign.Content.V)
+	for _, banner := range campaign.Content.B {
+		spellCheckArray = append(spellCheckArray, banner.H1)
+		spellCheckArray = append(spellCheckArray, banner.B)
+		spellCheckArray = append(spellCheckArray, banner.D)
+	}
+
+	for _, card := range campaign.Content.C {
+		spellCheckArray = append(spellCheckArray, card.H1)
+		spellCheckArray = append(spellCheckArray, card.B)
+		spellCheckArray = append(spellCheckArray, card.D)
+	}
+
+	return IsSpelledCorrectly(spellCheckArray)
+}
+
+func IsSpelledCorrectly(spellCheckArray []string) bool {
+	isSpelledCorrectly := true
+	r := misspell.Replacer{
+		Replacements: misspell.DictMain,
+		Debug:        false,
+	}
+	r.AddRuleList(misspell.DictAmerican)
+	r.Compile()
+
+	for _, item := range spellCheckArray {
+		_, diff := r.Replace(item)
+
+		if len(diff) > 0 {
+			isSpelledCorrectly = false
+			break
+		}
+	}
+
+	return isSpelledCorrectly
 }

@@ -1,2 +1,4 @@
+github.com/client9/misspell v0.3.4 h1:ta993UF76GwbvJcIo3Y68y/M3WxlpEHPWIGDkJYwzJI=
+github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/eserilev/utilities.winc.services v0.0.0-20220122131927-9dc84d643b1c h1:srNyOMp0rCDllMEBR472bCy4cFzvIrrouOs4Z+S5kOU=
 github.com/eserilev/utilities.winc.services v0.0.0-20220122131927-9dc84d643b1c/go.mod h1:r42pkaolOwsvWV42ntsgEIIlZ+gdjiZjNOFIcLQuhyI=
