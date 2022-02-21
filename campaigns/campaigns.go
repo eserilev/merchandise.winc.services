@@ -8,31 +8,32 @@ import (
 	"path"
 	"time"
 
-	"github.com/eserilev/utilities.winc.services/winc_csv"
+	winc_csv "github.com/eserilev/utilities.winc.services/winc_csv"
+	winc_s3 "github.com/eserilev/utilities.winc.services/winc_s3"
 )
 
-func Upload() {
-	start, end := UpdateCampaignFiles()
-	UploadCampaignFilesToS3(start, end)
-}
+var fileUpdateSet map[string][]byte
 
 func BatchUpload(filePath string) {
+	fileUpdateSet = make(map[string][]byte)
 	campaigns := winc_csv.ReadCsv(filePath)
 	for _, campaign := range campaigns[1:] {
 		CreateCampaignJSON(campaign)
 	}
-	start, end := UpdateCampaignFiles()
-	UploadCampaignFilesToS3(start, end)
+	UpdateCampaignFiles()
 
 	fileName := path.Base(filePath)
+	UploadCampaignFilesToS3()
 	os.Rename(filePath, archiveCsvPath+fileName)
 }
 
-func UploadCampaignFilesToS3(start time.Time, end time.Time) {
-
+func UploadCampaignFilesToS3() {
+	for fileName, fileContent := range fileUpdateSet {
+		winc_s3.UploadFile("winc-origin-content-develop", fileName, fileContent)
+	}
 }
 
-func UpdateCampaignFiles() (time.Time, time.Time) {
+func UpdateCampaignFiles() {
 	minStartDate := new(time.Time)
 	maxEndDate := new(time.Time)
 	first := true
@@ -63,7 +64,6 @@ func UpdateCampaignFiles() (time.Time, time.Time) {
 		}
 		os.Rename(pendingJsonPath+file.Name(), archiveJsonPath+file.Name())
 	}
-	return *minStartDate, *maxEndDate
 }
 
 func UpdateCampaignFileContent(campaign Campaign) (time.Time, time.Time) {
@@ -114,6 +114,8 @@ func UpdateDefault(campaign Campaign, pathArray [5]string) {
 		log.Fatal(err)
 	}
 
+	fileUpdateSet[campaignFilePath] = campaignFileJson
+
 	err = ioutil.WriteFile(campaignFilePath, campaignFileJson, 0644)
 	if err != nil {
 		log.Fatal(err)
@@ -143,6 +145,8 @@ func UpdateCampaign(campaign Campaign, pathArray [5]string) {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	fileUpdateSet[campaignFilePath] = campaignFileJson
 
 	err = ioutil.WriteFile(campaignFilePath, campaignFileJson, 0644)
 	if err != nil {

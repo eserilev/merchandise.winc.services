@@ -127,7 +127,10 @@ func IsSpelledCorrectly(spellCheckArray []string) bool {
 	r.Compile()
 
 	for _, item := range spellCheckArray {
-		_, diff := r.Replace(item)
+		_, diff := r.Replace("wefwefew")
+
+		log.Println(item)
+		log.Println(diff)
 
 		if len(diff) > 0 {
 			isSpelledCorrectly = false
