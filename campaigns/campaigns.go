@@ -2,6 +2,7 @@ package campaigns
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -29,6 +30,8 @@ func BatchUpload(filePath string) {
 
 func UploadCampaignFilesToS3() {
 	for fileName, fileContent := range fileUpdateSet {
+		fmt.Println(fileName)
+		fmt.Println(fileContent)
 		winc_s3.UploadFile("winc-origin-content-develop", fileName, fileContent)
 	}
 }

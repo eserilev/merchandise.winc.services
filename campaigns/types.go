@@ -7,6 +7,12 @@ import (
 	"time"
 )
 
+const campaignNameColumn int = 0
+const couponCodeColumn int = 1
+const startDateColumn int = 11
+const endDateColumn int = 12
+const violatorCopyColumn int = 13
+
 type Campaign struct {
 	Delete    bool            `json:"delete"`
 	Replace   bool            `json:"replace"`
@@ -62,7 +68,7 @@ func CreateCampaign(record []string) Campaign {
 	var campaignContent CampaignContent
 	const layoutISO = "11/5/2021 0:00:00"
 
-	if record[0] == "default" {
+	if strings.Contains(record[couponCodeColumn], "default") {
 		campaign.Default = true
 		campaign.Campaign = "default"
 	} else {
@@ -70,8 +76,8 @@ func CreateCampaign(record []string) Campaign {
 		campaign.Campaign = record[0]
 	}
 
-	startString := strings.Split(record[2], "/")
-	endString := strings.Split(record[3], "/")
+	startString := strings.Split(record[startDateColumn], "/")
+	endString := strings.Split(record[endDateColumn], "/")
 
 	sYear := strings.Split(startString[2], " ")[0]
 	startYear, err := strconv.Atoi(sYear)
@@ -113,11 +119,11 @@ func CreateCampaign(record []string) Campaign {
 	campaign.EndDate = strconv.Itoa(end.Year()) + "-" + GetDoubleDigitString(int(end.Month())) + "-" + GetDoubleDigitString(end.Day())
 	campaign.Status = "0"
 	campaign.Replace = true
-	campaignContent.V = record[4]
+	campaignContent.V = record[violatorCopyColumn]
 	campaignContent.B = make([]Banner, 0)
 	campaignContent.C = make([]Card, 0)
-	campaignContent.P = record[6]
-	campaign.Content = CreateCampaignContent(record[4], record[6])
+	campaignContent.P = record[couponCodeColumn]
+	campaign.Content = CreateCampaignContent(record[violatorCopyColumn], record[couponCodeColumn])
 
 	return campaign
 }
