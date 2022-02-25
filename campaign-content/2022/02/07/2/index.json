@@ -1,0 +1,54 @@
+{
+	"debug": "",
+	"v": "Take an extra 10% off 12+ bottles. Discount applied at checkout.",
+	"p": "",
+	"b": [
+		{
+			"h1": "Save 10% On Our Love Drunk 6-Pack",
+			"d": "Charming? Yes. Reliable? Always.\u003cbr/\u003e Irresistible? Un.de.niably.",
+			"b": "Shop the pack",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/lovedrunk6pack"
+			},
+			"f": "black",
+			"t": 2,
+			"i": {
+				"1x": "/v/assets/managed/marketing/2022/02/01/default/cbd-3412-banner-mobile.png",
+				"2x": "/v/assets/managed/marketing/2022/02/01/default/cbd-3412-banner-desktop.png",
+				"3x": "/v/assets/managed/marketing/2022/02/01/default/cbd-3412-banner-desktop.png"
+			}
+		}
+	],
+	"c": [
+		{
+			"h1": "Love Drunk 6-Pack",
+			"d": "Reliable, charming, and irresistible, our Valentine’s Day bundle is the total package.",
+			"b": "Shop the pack",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/lovedrunk6pack"
+			},
+			"i": {
+				"1x": "/v/assets/managed/marketing/2022/02/01/default/cbd-3412-card.png",
+				"2x": "/v/assets/managed/marketing/2022/02/01/default/cbd-3412-card.png",
+				"3x": "/v/assets/managed/marketing/2022/02/01/default/cbd-3412-card.png"
+			}
+		},
+		{
+			"h1": "Red Low Sugar 6 Pack",
+			"d": "Wake up making clear-headed decisions thanks to this pack containing \u003c1g of sugar per bottle.",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/redlowsugar6pack"
+			},
+			"i": {
+				"1x": "/v/assets/managed/marketing/2022/02/01/default/low-red-card.png",
+				"2x": "/v/assets/managed/marketing/2022/02/01/default/low-red-card.png",
+				"3x": "/v/assets/managed/marketing/2022/02/01/default/low-red-card.png"
+			}
+		}
+	],
+	"campaigns": {}
+}

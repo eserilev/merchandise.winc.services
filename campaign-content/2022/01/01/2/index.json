@@ -1,0 +1,25 @@
+{
+	"debug": "",
+	"v": "Due to holidays and high order volume, please anticipate slight shipping delays",
+	"p": "",
+	"b": [
+		{
+			"h1": " How to dominate holiday gifting.",
+			"d": "Give a $100+ gift card and enjoy 20% credits back. *quietly pumps fist ",
+			"b": "Choose your wines",
+			"a": {
+				"m": "navigate",
+				"id": "/gifts/gift-cards"
+			},
+			"f": "white",
+			"t": 1,
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/01/default/cbd-3142-mobile.png",
+				"2x": "/v/assets/managed/marketing/2021/12/01/default/cbd-3142-desktop.png",
+				"3x": "/v/assets/managed/marketing/2021/12/01/default/cbd-3142-desktop.png"
+			}
+		}
+	],
+	"c": [],
+	"campaigns": {}
+}

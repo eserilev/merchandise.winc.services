@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": true,
+	"campaign": "default",
+	"startDate": "2022-05-24",
+	"endDate": "2022-05-30",
+	"status": "0",
+	"content": {
+		"v": "Memorial Day Special! Get 4 Bottles for $24.95",
+		"p": "defaultmd",
+		"b": [],
+		"c": []
+	}
+}

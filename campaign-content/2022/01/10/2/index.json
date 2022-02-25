@@ -1,0 +1,40 @@
+{
+	"debug": "",
+	"v": "Just in! Check out our new low sugar red 6 pack",
+	"p": "",
+	"b": [
+		{
+			"h1": "Red Low Sugar 6 Pack",
+			"d": "Delete groggy mornings and get this low sugar 6 pack of reds for just $89.99 (10% discount included).",
+			"b": "Shop the pack",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/redlowsugar6pack"
+			},
+			"f": "black",
+			"t": 2,
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/29/default/low_sugar_red_desktop.png",
+				"2x": "/v/assets/managed/marketing/2021/12/29/default/low_sugar_red_mobile.png",
+				"3x": "/v/assets/managed/marketing/2021/12/29/default/low_sugar_red_mobile.png"
+			}
+		}
+	],
+	"c": [
+		{
+			"h1": "Red Low Sugar 6 Pack",
+			"d": "Wake up making clear-headed decisions thanks to \u003cbr/\u003e this pack containing \u003c1g of sugar per bottle.",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/redlowsugar6pack"
+			},
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/29/default/low-sugar-red-card.png",
+				"2x": "/v/assets/managed/marketing/2021/12/29/default/low-sugar-red-card.png",
+				"3x": "/v/assets/managed/marketing/2021/12/29/default/low-sugar-red-card.png"
+			}
+		}
+	],
+	"campaigns": {}
+}

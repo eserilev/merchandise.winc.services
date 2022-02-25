@@ -2,11 +2,11 @@ package campaigns
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
 	"path"
+	"strings"
 	"time"
 
 	winc_csv "github.com/eserilev/utilities.winc.services/winc_csv"
@@ -30,9 +30,14 @@ func BatchUpload(filePath string) {
 
 func UploadCampaignFilesToS3() {
 	for fileName, fileContent := range fileUpdateSet {
-		fmt.Println(fileName)
-		fmt.Println(fileContent)
-		winc_s3.UploadFile("winc-origin-content-develop", fileName, fileContent)
+		fullPath := strings.Split(fileName, "./")
+		f := fileName
+
+		if len(fullPath) > 1 {
+			f = fullPath[1]
+		}
+
+		winc_s3.UploadFile("winc-origin-content-develop", f, fileContent)
 	}
 }
 

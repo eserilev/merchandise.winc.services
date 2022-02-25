@@ -43,6 +43,10 @@ github.com/eserilev/utilities.winc.services v0.0.0-20220219235718-5a937a97339c h
 github.com/eserilev/utilities.winc.services v0.0.0-20220219235718-5a937a97339c/go.mod h1:r42pkaolOwsvWV42ntsgEIIlZ+gdjiZjNOFIcLQuhyI=
 github.com/eserilev/utilities.winc.services v0.0.5 h1:apGV/XMxNKoTOO46E8dk7eZu6PFOW3V/wsBdVALe18o=
 github.com/eserilev/utilities.winc.services v0.0.5/go.mod h1:r42pkaolOwsvWV42ntsgEIIlZ+gdjiZjNOFIcLQuhyI=
+github.com/eserilev/utilities.winc.services v0.0.6 h1:/fNObuNx7+SGacI3UmsUBmtt9KrWrKu2XzV6fyb34ts=
+github.com/eserilev/utilities.winc.services v0.0.6/go.mod h1:leTEpoGxLMfbBLZfCDMbQPySQCC7HIqdc6ZFJm6aAoo=
+github.com/eserilev/utilities.winc.services v0.0.7 h1:NaWZ7K+W65kvWRwjYj6GmZARniqjjOp77ZIl9xs4rs0=
+github.com/eserilev/utilities.winc.services v0.0.7/go.mod h1:leTEpoGxLMfbBLZfCDMbQPySQCC7HIqdc6ZFJm6aAoo=
 github.com/google/go-cmp v0.5.4/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.6/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
