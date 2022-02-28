@@ -9,9 +9,10 @@ import (
 
 const campaignNameColumn int = 0
 const couponCodeColumn int = 1
-const startDateColumn int = 10
-const endDateColumn int = 11
-const violatorCopyColumn int = 12
+const startDateColumn int = 11
+const endDateColumn int = 12
+const violatorCopyColumn int = 13
+const caidColumn int = 14
 
 type Campaign struct {
 	Delete    bool            `json:"delete"`
@@ -73,7 +74,7 @@ func CreateCampaign(record []string) Campaign {
 		campaign.Campaign = "default"
 	} else {
 		campaign.Default = false
-		campaign.Campaign = record[0]
+		campaign.Campaign = record[caidColumn]
 	}
 
 	startString := strings.Split(record[startDateColumn], "/")

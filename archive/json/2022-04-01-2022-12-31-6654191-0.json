@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6654191",
+	"startDate": "2022-04-01",
+	"endDate": "2022-12-31",
+	"status": "0",
+	"content": {
+		"v": "New member offer! Get 4 bottles for $29.95 + shipping's on us.",
+		"p": "jessahelm",
+		"b": [],
+		"c": []
+	}
+}

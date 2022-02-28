@@ -1,0 +1,45 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": true,
+    "campaign": null,
+    "startDate": "2022-03-01",
+    "endDate": "2022-04-12",
+    "status": "2",
+    "content": {
+        "p": "",
+        "v": "Take an extra 10% off 12+ bottles. Discount applied at checkout.",
+        "b": [],
+        "c": [
+            {
+                "h1": "Red Low Sugar 6 Pack",
+                "d": "Wake up making clear-headed decisions thanks to this pack containing <1g of sugar per bottle.",
+                "b": "Shop now",
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/redlowsugar6pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2022/02/01/default/low-red-card.png",
+                    "2x": "/v/assets/managed/marketing/2022/02/01/default/low-red-card.png",
+                    "3x": "/v/assets/managed/marketing/2022/02/01/default/low-red-card.png"
+                }
+            },
+            {
+                "h1": "White Low Sugar 6 Pack",
+                "d": "With <1g of sugar per bottle, this pack makes it easy to live - and share - the indulgent life.",
+                "b": "Shop now",
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/whitelowsugar6pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2022/03/01/default/card_low_sugar_white.jpg",
+                    "2x": "/v/assets/managed/marketing/2022/03/01/default/card_low_sugar_white.jpg",
+                    "3x": "/v/assets/managed/marketing/2022/03/01/default/card_low_sugar_white.jpg"
+                }
+               
+            }
+        ]
+    }
+}

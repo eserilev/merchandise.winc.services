@@ -1,0 +1,41 @@
+Campaign Name,Campaign Tag/Coupon Code,Brand,Category,Channel,Platform,Coupon Type,Max Uses,Minimum Subtotal,Discount Amount,Max Discount,Start Date,Expiration Date,Violator Copy,CAID
+Example Campaign,example123,Winc,Non-Gifting,Email,NA,Percentage Off,10000,20,10%,20,1/21/2022,Evergreen,Valentine's Day Special! Get 10% off your order.,
+Lead Experience Discount 1,30TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$29.95,$29.95,$30.00,3/1/22,Evergreen,New Member Special! Get 4 Bottles for $29.95,6653283
+Lead Experience Discount 2,25TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/1/22,Evergreen,New Member Special! Get 4 Bottles for $24.95,6653286
+Lead Experience Discount 3,23TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$22.95,$22.95,$38.00,3/1/22,Evergreen,New Member Special! Get 4 Bottles for $22.95,6653293
+Lead Experience Discount 4,21TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$20.95,$20.95,$40.00,3/1/22,Evergreen,New Member Special! Get 4 Bottles for $20.95,6653297
+Lead Experience Discount 5,20TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$19.95,$19.95,$41.00,3/1/22,Evergreen,New Member Special! Get 4 Bottles for $19.95,6653300
+Lead and Customer Re-engagement: Last 6 Months or Never Opened,LASTCHANCE25,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/1/22,Evergreen,Get 4 Bottles for $24.95,6653306
+AS Winback Targeted Offer- March,COMEBACK25A,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/22,4/30/22,Get 4 bottles for $24.95. Use promo code COMEBACK25A at checkout.,6653312
+AS Winback Targeted Offer- March,COMEBACK25B,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/22,4/30/22,Get 4 bottles for $24.95. Use promo code COMEBACK25B at checkout.,6653354
+IA Health Conscious Winback Targeted Offer- March,LOWSUGAR25A,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/22,4/30/22,Get 4 bottles for $24.95. Use promo code LOWSUGAR25A at checkout.,6653367
+IA Health Conscious Winback Targeted Offer- March,LOWSUGAR25B,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/22,4/30/22,Get 4 bottles for $24.95. Use promo code LOWSUGAR25B at checkout.,6653372
+IA Cost Conscious Winback Targeted Offer- March,SAVE25A,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/22,4/30/22,Get 4 bottles for $24.95. Use promo code SAVE25A at checkout.,6653393
+IA Cost Conscious Winback Targeted Offer- March,SAVE25B,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/22,4/30/22,Get 4 bottles for $24.95. Use promo code SAVE25B at checkout.,6653394
+IA Churn Prevention Targeted Offer- March (no violator copy needed),MISSYOU15A,Winc,Non-Gifting,Email,NA,Percentage Off,"50,000",$0.00,15%,$100.00,3/16/22,4/30/22,N/A,6653404
+IA Churn Prevention Targeted Offer- March (no violator copy needed),MISSYOU15B,Winc,Non-Gifting,Direct Mail,NA,Percentage Off,"50,000",$0.00,15%,$100.00,3/16/22,4/30/22,N/A,6653406
+,,,,,,,,,,,,,,
+AS Winback Targeted Offer- April (no violoator copy needed),COMEBACK25C,Winc,Non-Gifting,Email,,,,,,,,,,
+AS Winback Targeted Offer- April (no violoator copy needed),COMEBACK25D,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Health Conscious Winback Targeted Offer- April (no violoator copy needed),LOWSUGAR25C,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Health Conscious Winback Targeted Offer- April (no violoator copy needed),LOWSUGAR25D,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+AS Winback Targeted Offer- May (no violoator copy needed),COMEBACK25E,Winc,Non-Gifting,Email,,,,,,,,,,
+AS Winback Targeted Offer- May (no violoator copy needed),COMEBACK25F,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+AS Winback Targeted Offer- June (no violoator copy needed),COMEBACK25G,Winc,Non-Gifting,Email,,,,,,,,,,
+AS Winback Targeted Offer- June (no violoator copy needed),COMEBACK25H,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Health Conscious Winback Targeted Offer- May (no violoator copy needed),LOWSUGAR25E,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Health Conscious Winback Targeted Offer- May (no violoator copy needed),LOWSUGAR25F,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Health Conscious Winback Targeted Offer- June (no violoator copy needed),LOWSUGAR25G,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Health Conscious Winback Targeted Offer- June (no violoator copy needed),LOWSUGAR25H,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Cost Conscious Winback Targeted Offer- April (no violoator copy needed),SAVE25C,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Cost Conscious Winback Targeted Offer- April (no violoator copy needed),SAVE25D,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Cost Conscious Winback Targeted Offer- May (no violoator copy needed),SAVE25E,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Cost Conscious Winback Targeted Offer- May (no violoator copy needed),SAVE25F,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Cost Conscious Winback Targeted Offer- June (no violoator copy needed),SAVE25G,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Cost Conscious Winback Targeted Offer- June (no violoator copy needed),SAVE25H,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Churn Prevention Targeted Offer- April (no violoator copy needed),MISSYOU15C,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Churn Prevention Targeted Offer- April (no violoator copy needed),MISSYOU15D,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Churn Prevention Targeted Offer- May (no violoator copy needed),MISSYOU15E,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Churn Prevention Targeted Offer- May (no violoator copy needed),MISSYOU15F,Winc,Non-Gifting,Direct Mail,,,,,,,,,,
+IA Churn Prevention Targeted Offer- June (no violoator copy needed),MISSYOU15G,Winc,Non-Gifting,Email,,,,,,,,,,
+IA Churn Prevention Targeted Offer- June (no violoator copy needed),MISSYOU15H,Winc,Non-Gifting,Direct Mail,,,,,,,,,,

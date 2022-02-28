@@ -16,11 +16,16 @@ import (
 var fileUpdateSet map[string][]byte
 
 func BatchUpload(filePath string) {
+
 	fileUpdateSet = make(map[string][]byte)
-	campaigns := winc_csv.ReadCsv(filePath)
-	for _, campaign := range campaigns[1:] {
-		CreateCampaignJSON(campaign)
+
+	if filePath != "" {
+		campaigns := winc_csv.ReadCsv(filePath)
+		for _, campaign := range campaigns[1:] {
+			CreateCampaignJSON(campaign)
+		}
 	}
+
 	UpdateCampaignFiles()
 
 	fileName := path.Base(filePath)
