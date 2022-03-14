@@ -1,0 +1,22 @@
+Campaign Name,Campaign Tag/Coupon Code,Brand,Category,Channel,Platform,Coupon Type,Max Uses,Minimum Subtotal,Discount Amount,Max Discount,Start Date,Expiration Date,Violator Copy,CAID
+Lead Experience Discount 1,30TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$29.95,$29.95,$30.00,3/1/2022,12/31/2022,New Member Special! Get 4 Bottles for $29.95,6653283
+Lead Experience Discount 2,25TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/1/2022,12/31/2022,New Member Special! Get 4 Bottles for $24.95,6653286
+Lead Experience Discount 3,23TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$22.95,$22.95,$38.00,3/1/2022,12/31/2022,New Member Special! Get 4 Bottles for $22.95,6653293
+Lead Experience Discount 4,21TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$20.95,$20.95,$40.00,3/1/2022,12/31/2022,New Member Special! Get 4 Bottles for $20.95,6653297
+Lead Experience Discount 5,20TRYWINC,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$19.95,$19.95,$41.00,3/1/2022,12/31/2022,New Member Special! Get 4 Bottles for $19.95,6653300
+Lead and Customer Re-engagement: Last 6 Months or Never Opened,LASTCHANCE25,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/1/2022,12/31/2022,Get 4 Bottles for $24.95,6653306
+AS Winback Targeted Offer- March,COMEBACK25A,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/2022,4/30/2022,Get 4 bottles for $24.95. Use promo code COMEBACK25A at checkout.,6653312
+AS Winback Targeted Offer- March,COMEBACK25B,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/2022,4/30/2022,Get 4 bottles for $24.95. Use promo code COMEBACK25B at checkout.,6653354
+IA Health Conscious Winback Targeted Offer- March,LOWSUGAR25A,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/2022,4/30/2022,Get 4 bottles for $24.95. Use promo code LOWSUGAR25A at checkout.,6653367
+IA Health Conscious Winback Targeted Offer- March,LOWSUGAR25B,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/2022,4/30/2022,Get 4 bottles for $24.95. Use promo code LOWSUGAR25B at checkout.,6653372
+IA Cost Conscious Winback Targeted Offer- March,SAVE25A,Winc,Non-Gifting,Email,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/2022,4/30/2022,Get 4 bottles for $24.95. Use promo code SAVE25A at checkout.,6653393
+IA Cost Conscious Winback Targeted Offer- March,SAVE25B,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,"50,000",$24.95,$24.95,$35.00,3/16/2022,4/30/2022,Get 4 bottles for $24.95. Use promo code SAVE25B at checkout.,6653394
+IA Churn Prevention Targeted Offer- March (no violator copy needed),MISSYOU15A,Winc,Non-Gifting,Email,NA,Percentage Off,"50,000",$0.00,15%,$100.00,3/16/2022,4/30/2022,N/A,6653404
+IA Churn Prevention Targeted Offer- March (no violator copy needed),MISSYOU15B,Winc,Non-Gifting,Direct Mail,NA,Percentage Off,"50,000",$0.00,15%,$100.00,3/16/2022,4/30/2022,N/A,6653406
+Default 4 for $29.95 DIJFY,DIJFY,Winc,Non-Gifting,Affiliates,NA,Dynamic Discount,100000,29.95,29.95,30,2/2/2022,12/31/2022,Didn't I Just Feed You Podcast Special! Get 4 Bottles for $29.95,6654198
+Default 4 for $29.96 ScientificSense,ScientificSense,Winc,Non-Gifting,Podcast,N/a,Dynamic Discount,100000,29.95,29.95,30,2/25/2022,12/31/2022,Get 4 Bottles for $29.95 + Complimentary Shipping,6654201
+March Poplar Campaign,poplarmarch22,Winc,Non-Gifting,Direct Mail,NA,Dynamic Discount,10000,29.95,29.95,30,3/1/2022,4/30/2022,New member offer! Get 4 bottles for $29.95 + shipping's on us.,6653280
+Growth Partner: Hello Fresh Inserts,wincxHFInserts,Winc,Non-Gifting,NA,Growth Partnerships,Dynamic Discount,10000,24.95,24.95,34.95,3/1/2022,6/30/2022,Get 4 bottles for just $24.95! Discount applied at checkout.,6653429
+Growth Partner: Purple Carrot Inserts,wincxpurplecarrot,Winc,Non-Gifting,NA,Growth Partnerships,Dynamic Discount,10000,24.95,24.95,34.95,3/1/2022,6/30/2022,Get 4 bottles for just $24.95! Discount applied at checkout.,6653436
+Growth Partner: Purple Carrot Email,wincxPC ,Winc,Non-Gifting,NA,Growth Partnerships,Dynamic Discount,10000,24.95,24.95,34.95,3/1/2022,6/30/2022,Get 4 bottles for just $24.95! Discount applied at checkout.,6653441
+Growth Partner: Purple Carrot Giveaway,wincxPCgiveaway,Winc,Non-Gifting,NA,Growth Partnerships,Dynamic Discount,10000,24.95,24.95,34.95,3/1/2022,6/30/2022,Get 4 bottles for just $24.95! Discount applied at checkout.,6653450

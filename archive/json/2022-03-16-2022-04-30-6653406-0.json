@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6653406",
+	"startDate": "2022-03-16",
+	"endDate": "2022-04-30",
+	"status": "0",
+	"content": {
+		"v": "N/A",
+		"p": "MISSYOU15B",
+		"b": [],
+		"c": []
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6653367",
+	"startDate": "2022-03-16",
+	"endDate": "2022-04-30",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for $24.95. Use promo code LOWSUGAR25A at checkout.",
+		"p": "LOWSUGAR25A",
+		"b": [],
+		"c": []
+	}
+}
