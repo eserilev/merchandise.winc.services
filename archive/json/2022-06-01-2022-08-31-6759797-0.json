@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6759797",
+	"startDate": "2022-06-01",
+	"endDate": "2022-08-31",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for just $24.95! Discount applied at checkout.",
+		"p": "wincxjustfab",
+		"b": [],
+		"c": []
+	}
+}

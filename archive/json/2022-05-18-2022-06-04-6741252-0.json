@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6741252",
+	"startDate": "2022-05-18",
+	"endDate": "2022-06-04",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for $24.95. Use promo code 3DAYWKND at checkout.",
+		"p": "3DAYWKND",
+		"b": [],
+		"c": []
+	}
+}

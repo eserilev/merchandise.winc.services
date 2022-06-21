@@ -1336,6 +1336,18 @@
 			"p": "00685FB",
 			"b": [],
 			"c": []
+		},
+		"6741252": {
+			"v": "Get 4 bottles for $24.95. Use promo code 3DAYWKND at checkout.",
+			"p": "3DAYWKND",
+			"b": [],
+			"c": []
+		},
+		"6759799": {
+			"v": "New member offer! Get 4 bottles for $29.95 + shipping's on us.",
+			"p": "mastercardoffers",
+			"b": [],
+			"c": []
 		}
 	}
 }
