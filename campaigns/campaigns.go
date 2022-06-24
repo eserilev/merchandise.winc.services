@@ -29,7 +29,8 @@ func BatchUpload(filePath string) {
 	UpdateCampaignFiles()
 
 	fileName := path.Base(filePath)
-	UploadCampaignFilesToS3()
+	// unused files, let's just not do this at the moment
+	// UploadCampaignFilesToS3()
 	os.Rename(filePath, archiveCsvPath+fileName)
 }
 
