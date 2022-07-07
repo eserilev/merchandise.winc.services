@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6782781",
+	"startDate": "2022-07-12",
+	"endDate": "2022-07-14",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for $24.95. Use promo code PRIME2022 at checkout.",
+		"p": "PRIME2022",
+		"b": [],
+		"c": []
+	}
+}
