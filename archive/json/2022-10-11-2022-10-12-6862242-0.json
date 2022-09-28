@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6862242",
+	"startDate": "2022-10-11",
+	"endDate": "2022-10-12",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for $24.95. Use promo code PDay2022 at checkout.",
+		"p": "PDay2022",
+		"b": [],
+		"c": []
+	}
+}

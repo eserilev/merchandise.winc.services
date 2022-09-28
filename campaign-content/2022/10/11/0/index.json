@@ -862,6 +862,18 @@
 			"p": "jenagreen",
 			"b": [],
 			"c": []
+		},
+		"6862242": {
+			"v": "Get 4 bottles for $24.95. Use promo code PDay2022 at checkout.",
+			"p": "PDay2022",
+			"b": [],
+			"c": []
+		},
+		"6862245": {
+			"v": "New member offer! Get 4 bottles for $29.95 + shipping's on us.",
+			"p": "podcast22",
+			"b": [],
+			"c": []
 		}
 	}
 }
