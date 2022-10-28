@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6879465",
+	"startDate": "2022-11-27",
+	"endDate": "2022-12-03",
+	"status": "0",
+	"content": {
+		"v": "Cyber Monday Special! Get 4 bottles for just $22.95! Discount applied at checkout.",
+		"p": "RoktxCyberMonday",
+		"b": [],
+		"c": []
+	}
+}
