@@ -9,6 +9,10 @@ Influencer: Influencer Response: Champagne Chaos,champagnechaos,Winc,Non-Gifting
 
 Note that all dates MUST be formatted as 'MM/DD/YYYY', no exceptions.
 
+Note that the fields are comma-separated, sooo.. i guess we need to convert any existing commas in the data to something else, then convert them back in the JSON. Super. I'm tring out using #comma# as a placeholder, we'll see how that goes.
+
+Note that we only expect a fixed number of columns (see example above). More or fewer columns means the code needs to change.
+
 This is read in and processed by CreateCampaignJSON into files in a pending folder based on the start date of the campaign. Any entries in the processed file will overwrite data in the pending folder. Once everything is generated, these files are used to generate the contents of the campaign-content folder, overwriting whatever is there. This folder contains a file for every day and each member type, if appropriate. Current types are 0 ("leads" or non-members) and 2 (members), allowing us to target campaigns at leads or members.
 
 For example, a campaign with start date 06/12/2022 will end up writing data to campaign-content/2022/06/12/0/index.json (and potentially campaign-content/2022/06/12/2/index.json)

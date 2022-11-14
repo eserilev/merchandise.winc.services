@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "20796903",
+	"startDate": "2022-11-25",
+	"endDate": "2022-11-29",
+	"status": "0",
+	"content": {
+		"v": "Our Biggest Discount of the Year. Take 20% off 12 Bottles with code BYOB20. ",
+		"p": "BYOB20",
+		"b": [],
+		"c": []
+	}
+}

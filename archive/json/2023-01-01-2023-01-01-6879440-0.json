@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6879440",
+	"startDate": "2023-01-01",
+	"endDate": "2023-01-01",
+	"status": "0",
+	"content": {
+		"v": "New Year's Day Special! Get 4 bottles for $20.23 + shipping's on us!",
+		"p": "62670GA",
+		"b": [],
+		"c": []
+	}
+}
