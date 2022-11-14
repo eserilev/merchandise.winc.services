@@ -1,7 +1,7 @@
 {
 	"debug": "",
-	"v": "",
-	"p": "",
+	"v": "Cyber Week came EARLY! Use promo code CW2022 at checkout.",
+	"p": "CW2022",
 	"b": [],
 	"c": [],
 	"campaigns": {
@@ -1046,6 +1046,12 @@
 		"6889893": {
 			"v": "",
 			"p": "WINEGIFT22",
+			"b": [],
+			"c": []
+		},
+		"6905519": {
+			"v": "Cyber Week came EARLY! Use promo code CW2022 at checkout.",
+			"p": "CW2022",
 			"b": [],
 			"c": []
 		}

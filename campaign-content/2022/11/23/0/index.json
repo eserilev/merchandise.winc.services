@@ -1,7 +1,7 @@
 {
 	"debug": "",
-	"v": "",
-	"p": "",
+	"v": "Black Friday starts NOW! Use promo code EBF2022 at checkout.",
+	"p": "EBF2022",
 	"b": [],
 	"c": [],
 	"campaigns": {
@@ -1052,6 +1052,12 @@
 		"6889893": {
 			"v": "",
 			"p": "WINEGIFT22",
+			"b": [],
+			"c": []
+		},
+		"6905514": {
+			"v": "Black Friday starts NOW! Use promo code EBF2022 at checkout.",
+			"p": "EBF2022",
 			"b": [],
 			"c": []
 		}

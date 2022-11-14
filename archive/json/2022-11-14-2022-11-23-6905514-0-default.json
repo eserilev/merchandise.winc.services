@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": true,
+	"campaign": "6905514",
+	"startDate": "2022-11-14",
+	"endDate": "2022-11-23",
+	"status": "0",
+	"content": {
+		"v": "Black Friday starts NOW! Use promo code EBF2022 at checkout.",
+		"p": "EBF2022",
+		"b": [],
+		"c": []
+	}
+}

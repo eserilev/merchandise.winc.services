@@ -1,0 +1,9 @@
+Campaign Name,Campaign Tag/Coupon Code,Brand,Category,Channel,Platform,Coupon Type,Max Uses,Minimum Subtotal,Discount Amount,Max Discount,Start Date,End Date,Violator Copy,CAID
+Default 4 for $29.95 (March - May),default,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,29.95,29.95,34,3/1/2022,5/23/2022,New Member Special! Get 4 Bottles for $29.95,6654349
+Default 4 for $24.95 - Memorial Day,defaultmd,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,24.95,24.95,39,5/24/2022,5/30/2022,Memorial Day Special! Get 4 Bottles for $24.95,6654354
+Default 4 for $29.95 (June - Aug),default1,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,29.95,29.95,34,5/31/2022,8/29/2022,New Member Special! Get 4 Bottles for $29.95,6654419
+Default 4 for $24.95 - Labor Day,defaultld,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,24.95,24.95,39,8/30/2022,9/5/2022,Labor Day Special! Get 4 Bottles for $24.95,6654363
+Default 4 for $29.95 (Sept - Nov),default2,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,29.95,29.95,34,9/6/2022,11/12/2022,New Member Special! Get 4 Bottles for $29.95,6654425
+[Non-Member] Early BF 2022,EBF2022,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,$24.95,$24.95,$39.00,11/14/2022,11/23/2022,Black Friday starts NOW! Use promo code EBF2022 at checkout.,6905514
+[Non-Member] Black Friday 2022,BF2022,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,$22.95,$22.95,$42.00,11/24/2022,11/25/2022,Black Friday is ON! Use promo code BF2022 at checkout.,6905516
+[Non-Member] Cyber Week 2022,CW2022,Winc,Non-Gifting,Organic,N/A,Dynamic Discount,100000,$22.95,$22.95,$42.00,11/27/2022,12/03/2022,Cyber Week came EARLY! Use promo code CW2022 at checkout.,6905519

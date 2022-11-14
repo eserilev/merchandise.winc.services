@@ -1,7 +1,7 @@
 {
 	"debug": "",
-	"v": "",
-	"p": "",
+	"v": "Black Friday is ON! Use promo code BF2022 at checkout.",
+	"p": "BF2022",
 	"b": [],
 	"c": [],
 	"campaigns": {
@@ -1052,6 +1052,12 @@
 		"6889893": {
 			"v": "",
 			"p": "WINEGIFT22",
+			"b": [],
+			"c": []
+		},
+		"6905516": {
+			"v": "Black Friday is ON! Use promo code BF2022 at checkout.",
+			"p": "BF2022",
 			"b": [],
 			"c": []
 		}
