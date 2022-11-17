@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6905533",
+	"startDate": "2022-12-05",
+	"endDate": "2022-12-17",
+	"status": "0",
+	"content": {
+		"v": "Winter Blowout! Get 4 bottles for just $24.95! Discount applied at checkout.",
+		"p": "RoktxWinterBlowout",
+		"b": [],
+		"c": []
+	}
+}
