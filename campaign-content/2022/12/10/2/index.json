@@ -1,0 +1,40 @@
+{
+	"debug": "",
+	"v": "Save 15% on our 'Let It Flow' 12-pack with code LETITFLOW15!",
+	"p": "LETITFLOW15",
+	"b": [
+		{
+			"h1": "Let It Flow 12-Pack",
+			"d": "Keep the good wines flowing all season long. ",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/letitflow12pack"
+			},
+			"f": "black",
+			"t": 2,
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/29/default/let_it_flow_pack_mobile.jpg",
+				"2x": "/v/assets/managed/marketing/2021/12/29/default/let_it_flow_pack_desktop.jpg",
+				"3x": "/v/assets/managed/marketing/2021/12/29/default/let_it_flow_pack_desktop.jpg"
+			}
+		}
+	],
+	"c": [
+		{
+			"h1": "Let It Flow 12-Pack",
+			"d": "Keep the good wines flowing all season long. ",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/letitflow12pack"
+			},
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/29/default/let_it_flow_pack_sgg.jpg",
+				"2x": "/v/assets/managed/marketing/2021/12/29/default/let_it_flow_pack_sgg.jpg",
+				"3x": "/v/assets/managed/marketing/2021/12/29/default/let_it_flow_pack_sgg.jpg"
+			}
+		}
+	],
+	"campaigns": {}
+}

@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "",
+	"startDate": "2022-11-27",
+	"endDate": "2022-12-03",
+	"status": "0",
+	"content": {
+		"v": "6879385",
+		"p": "22CYBERSTOCK",
+		"b": [],
+		"c": []
+	}
+}

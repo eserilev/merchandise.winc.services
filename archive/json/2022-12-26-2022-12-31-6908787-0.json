@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6908787",
+	"startDate": "2022-12-26",
+	"endDate": "2022-12-31",
+	"status": "0",
+	"content": {
+		"v": "Winc Winter Blowout! Use promo code WINCOOO at checkout.",
+		"p": "WINCOOO",
+		"b": [],
+		"c": []
+	}
+}

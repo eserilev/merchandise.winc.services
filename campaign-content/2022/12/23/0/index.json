@@ -1,10 +1,16 @@
 {
 	"debug": "",
-	"v": "",
-	"p": "",
+	"v": "New Member Special! Get 4 Bottles for $29.95",
+	"p": "default3",
 	"b": [],
 	"c": [],
 	"campaigns": {
+		"": {
+			"v": "6887304",
+			"p": "WINCGIFT",
+			"b": [],
+			"c": []
+		},
 		"2527733": {
 			"v": "New Member Offer! Get 4 Bottles for $29.95",
 			"p": "tapjoy",
@@ -1010,6 +1016,12 @@
 		"6889175": {
 			"v": "New member offer! Get 4 bottles for $24.95 + shipping's on us.",
 			"p": "winc2022",
+			"b": [],
+			"c": []
+		},
+		"6913296": {
+			"v": "New Year's Day Special! Get 4 Bottles for $20.23 + Shipping's on us",
+			"p": "IRNY22",
 			"b": [],
 			"c": []
 		}

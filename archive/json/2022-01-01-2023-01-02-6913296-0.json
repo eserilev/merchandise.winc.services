@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6913296",
+	"startDate": "2022-01-01",
+	"endDate": "2023-01-02",
+	"status": "0",
+	"content": {
+		"v": "New Year's Day Special! Get 4 Bottles for $20.23 + Shipping's on us",
+		"p": "IRNY22",
+		"b": [],
+		"c": []
+	}
+}

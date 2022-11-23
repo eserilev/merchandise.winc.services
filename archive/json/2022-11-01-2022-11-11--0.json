@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "",
+	"startDate": "2022-11-01",
+	"endDate": "2022-11-11",
+	"status": "0",
+	"content": {
+		"v": "20796935",
+		"p": "2022FALL",
+		"b": [],
+		"c": []
+	}
+}

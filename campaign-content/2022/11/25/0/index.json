@@ -5,9 +5,15 @@
 	"b": [],
 	"c": [],
 	"campaigns": {
+		"": {
+			"v": "6879380",
+			"p": "2022BFRIDAY",
+			"b": [],
+			"c": []
+		},
 		"20796903": {
 			"v": "Our Biggest Discount of the Year. Take 20% off 12 Bottles with code BYOB20. ",
-			"p": "BYOB20",
+			"p": "BYOBSMS",
 			"b": [],
 			"c": []
 		},
@@ -1064,6 +1070,18 @@
 		"6905516": {
 			"v": "Black Friday is ON! Get 4 Bottles for $22.95 with code BF2022",
 			"p": "BF2022",
+			"b": [],
+			"c": []
+		},
+		"6913286": {
+			"v": "Black Friday Special! Get 4 Bottles for $22.95 + Shipping's on us",
+			"p": "IRBF22",
+			"b": [],
+			"c": []
+		},
+		"6913296": {
+			"v": "New Year's Day Special! Get 4 Bottles for $20.23 + Shipping's on us",
+			"p": "IRNY22",
 			"b": [],
 			"c": []
 		}

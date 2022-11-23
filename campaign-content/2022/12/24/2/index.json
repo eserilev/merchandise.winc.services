@@ -1,0 +1,40 @@
+{
+	"debug": "",
+	"v": "Receive 20% Credits back on $150+ of Gift Card purchases!",
+	"p": "",
+	"b": [
+		{
+			"h1": "Give an e-gift card",
+			"d": "Get 20% credits back when you give a $150+ gift card.",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/gifts/gift-cards"
+			},
+			"f": "white",
+			"t": 2,
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/29/default/gifting_phase_2_mobile.jpg",
+				"2x": "/v/assets/managed/marketing/2021/12/29/default/gifting_phase_2_desktop.jpg",
+				"3x": "/v/assets/managed/marketing/2021/12/29/default/gifting_phase_2_desktop.jpg"
+			}
+		}
+	],
+	"c": [
+		{
+			"h1": "Give an e-gift card",
+			"d": "Get 20% credits back when you give a $150+ gift card.",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/gifts/gift-cards"
+			},
+			"i": {
+				"1x": "/v/assets/managed/marketing/2021/12/29/default/gifting_phase_2_sgg.jpg",
+				"2x": "/v/assets/managed/marketing/2021/12/29/default/gifting_phase_2_sgg.jpg",
+				"3x": "/v/assets/managed/marketing/2021/12/29/default/gifting_phase_2_sgg.jpg"
+			}
+		}
+	],
+	"campaigns": {}
+}

@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": true,
+	"campaign": "default",
+	"startDate": "2022-12-05",
+	"endDate": "2022-12-11",
+	"status": "0",
+	"content": {
+		"v": "New Member Special! Get 4 Bottles for $29.95",
+		"p": "default3",
+		"b": [],
+		"c": []
+	}
+}
