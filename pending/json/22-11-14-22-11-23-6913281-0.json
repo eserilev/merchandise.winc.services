@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6913281",
+	"startDate": "22-11-14",
+	"endDate": "22-11-23",
+	"status": "0",
+	"content": {
+		"v": "Early Black Friday Special! Get 4 Bottles for $24.95 + Shipping's on us",
+		"p": "EarlyBF22",
+		"b": [],
+		"c": []
+	}
+}
