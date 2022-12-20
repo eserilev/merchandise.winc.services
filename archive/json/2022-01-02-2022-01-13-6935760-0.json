@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6935760",
+	"startDate": "2022-01-02",
+	"endDate": "2022-01-13",
+	"status": "0",
+	"content": {
+		"v": "6935760",
+		"p": "SUGARFREE15",
+		"b": [],
+		"c": []
+	}
+}

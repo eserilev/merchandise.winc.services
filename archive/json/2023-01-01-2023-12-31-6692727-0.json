@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6692727",
+	"startDate": "2023-01-01",
+	"endDate": "2023-12-31",
+	"status": "0",
+	"content": {
+		"v": "New member offer! Get 4 bottles for $29.95 + shipping's on us.",
+		"p": "62634GA",
+		"b": [],
+		"c": []
+	}
+}

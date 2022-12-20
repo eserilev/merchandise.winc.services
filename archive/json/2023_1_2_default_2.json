@@ -1,0 +1,47 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": true,
+    "campaign": null,
+    "startDate": "2023-01-02",
+    "endDate": "2023-01-13",
+    "status": "2",
+    "content": {
+        "p": "SUGARFREE15",
+        "v": "Save 15% on our 'No Sugar' 12-pack with code SUGARFREE15!",
+        "b": [
+            {
+                "h1": "No-Sugar 12-Pack",
+                "d": "Cut back on sugar, without cutting back on a good time.",
+                "b": "Shop now",
+                "f": "black",
+                "t": 2,
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/nosugar12pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2022/12/20/default/new_year_no_sugar_banner_mobile.jpg",
+                    "2x": "/v/assets/managed/marketing/2022/12/20/default/new_year_no_sugar_banner_desktop.jpg",
+                    "3x": "/v/assets/managed/marketing/2022/12/20/default/new_year_no_sugar_banner_desktop.jpg"        
+                }
+            }
+        ],
+        "c": [
+            {
+                "h1": "No-Sugar 12-Pack",
+                "d": "Cut back on sugar, without cutting back on a good time.",
+                "b": "Shop now",
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/nosugar12pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2022/12/20/default/new_year_no_sugar_banner_sgg.jpg",
+                    "2x": "/v/assets/managed/marketing/2022/12/20/default/new_year_no_sugar_banner_sgg.jpg",
+                    "3x": "/v/assets/managed/marketing/2022/12/20/default/new_year_no_sugar_banner_sgg.jpg"
+                }
+            }
+        ]
+    }
+}

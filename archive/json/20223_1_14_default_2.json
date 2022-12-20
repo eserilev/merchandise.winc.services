@@ -1,0 +1,15 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": true,
+    "campaign": null,
+    "startDate": "2023-01-14",
+    "endDate": "2023-01-31",
+    "status": "2",
+    "content": {
+        "p": "",
+        "v": "Take an extra 10% off 12+ bottles. Discount applied at checkout.",
+        "b": [],
+        "c": []
+    }
+}
