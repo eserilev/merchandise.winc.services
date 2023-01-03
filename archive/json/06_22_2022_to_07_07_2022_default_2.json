@@ -1,0 +1,45 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": true,
+    "campaign": null,
+    "startDate": "2022-06-22",
+    "endDate": "2022-07-07",
+    "status": "2",
+    "content": {
+        "p": "",
+        "v": "Take 15% off 12+ bottles. Use promo code POPOFF at checkout.",
+        "b": [
+            {
+                "h1": "Hot Grill Summer 12-Pack",
+                "d": "Take 15% off with code POPOFF.",
+                "b": "Shop the pack",
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/hotgrillsummer12pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2022/06/21/default/July+4th+Web+Banner+-+Mobile.jpg",
+                    "2x": "/v/assets/managed/marketing/2022/06/21/default/July+4th+Web+Banner+-+Desktop.jpg",
+                    "3x": "/v/assets/managed/marketing/2022/06/21/default/July+4th+Web+Banner+-+Desktop.jpg"
+                }
+            }
+        ],
+        "c": [
+            {
+                "h1": "Hot Grill Summer 12-Pack",
+                "d": "Take 15% off with code POPOFF.",
+                "b": "Shop the pack",
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/hotgrillsummer12pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2022/06/21/default/Hot+Grill+Summer+Self+Giveback+Card.jpg",
+                    "2x": "/v/assets/managed/marketing/2022/06/21/default/Hot+Grill+Summer+Self+Giveback+Card.jpg",
+                    "3x": "/v/assets/managed/marketing/2022/06/21/default/Hot+Grill+Summer+Self+Giveback+Card.jpg"
+                }
+            }
+        ]
+    }
+}

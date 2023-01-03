@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "5926680",
+	"startDate": "2022-07-26",
+	"endDate": "2022-12-30",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for just $24.95! Discount applied at checkout.",
+		"p": "jenreed",
+		"b": [],
+		"c": []
+	}
+}
