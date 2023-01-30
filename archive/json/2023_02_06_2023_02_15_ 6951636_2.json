@@ -1,0 +1,17 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": false,
+    "campaign": "6951636",
+    "startDate": "2023-02-06",
+    "endDate": "2023-02-15",
+    "status": "2",
+    "content": {
+        "p": "LOVEDRUNK5",
+        "v": "",
+        "b": [
+        ],
+        "c": [
+        ]
+    }
+}

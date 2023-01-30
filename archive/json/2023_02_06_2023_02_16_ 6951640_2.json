@@ -1,0 +1,17 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": false,
+    "campaign": "6951640",
+    "startDate": "2023-02-06",
+    "endDate": "2023-02-16",
+    "status": "2",
+    "content": {
+        "p": "LDRUNK15",
+        "v": "",
+        "b": [
+        ],
+        "c": [
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "delete": false,
+    "replace": true,
+    "default": true,
+    "campaign": null,
+    "startDate": "2023-02-06",
+    "endDate": "2023-02-15",
+    "status": "2",
+    "content": {
+        "p": "LOVEDRUNK23",
+        "v": "Save 15% on our 'Love Drunk' 12-pack with code LOVEDRUNK2023",
+        "b": [
+            {
+                "h1": "Love Drunk 12-Pack",
+                "d": "Fall Drunk In Love With Our Newest Pack",
+                "b": "Shop now",
+                "f": "black",
+                "t": 2,
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/lovedrunk12pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2023/02/01/default/vday_banner_mobile_12pack.jpg",
+                    "2x": "/v/assets/managed/marketing/2023/02/01/default/vday_banner_desktop_12pack.jpg",
+                    "3x": "/v/assets/managed/marketing/2023/02/01/default/vday_banner_desktop_12pack.jpg"        
+                }
+            }
+        ],
+        "c": [
+            {
+                "h1": "Love Drunk 12-pack",
+                "d": "Fall Drunk In Love With Our Newest Pack",
+                "b": "Shop now",
+                "a": {
+                    "m": "navigate",
+                    "id": "/wines/packs/lovedrunk12pack"
+                },
+                "i": {
+                    "1x": "/v/assets/managed/marketing/2023/02/01/default/vday_sgg_12pack.jpg",
+                    "2x": "/v/assets/managed/marketing/2023/02/01/default/vday_sgg_12pack.jpg",
+                    "3x": "/v/assets/managed/marketing/2023/02/01/default/vday_sgg_12pack.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,7 +1,7 @@
 {
 	"debug": "",
-	"v": "",
-	"p": "",
+	"v": "New Member Special! Get 4 Bottles for $29.95",
+	"p": "default3",
 	"b": [],
 	"c": [],
 	"campaigns": {
@@ -488,6 +488,24 @@
 		"6759814": {
 			"v": "New member offer! Get 4 bottles for $29.95 + shipping's on us.",
 			"p": "00763FB",
+			"b": [],
+			"c": []
+		},
+		"6951637": {
+			"v": "Get Love Drunk! Use promo code 23DRUNKLOVE at checkout.",
+			"p": "23LOVEDRUNK",
+			"b": [],
+			"c": []
+		},
+		"6951638": {
+			"v": "Get Love Drunk! Use promo code LOVEDRUNK23 at checkout.",
+			"p": "LOVEDRUNK23",
+			"b": [],
+			"c": []
+		},
+		"6951641": {
+			"v": "Save 15% on our ‘Love Drunk’ 12-pack with code LOVEDRUNK15. ",
+			"p": "LOVEDRUNK15",
 			"b": [],
 			"c": []
 		}

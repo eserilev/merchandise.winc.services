@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6951637",
+	"startDate": "2023-02-06",
+	"endDate": "2023-02-16",
+	"status": "0",
+	"content": {
+		"v": "Get Love Drunk! Use promo code 23DRUNKLOVE at checkout.",
+		"p": "23LOVEDRUNK",
+		"b": [],
+		"c": []
+	}
+}
