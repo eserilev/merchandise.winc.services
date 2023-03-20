@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6953604",
+	"startDate": "2023-03-14",
+	"endDate": "2023-04-03",
+	"status": "0",
+	"content": {
+		"v": "Come back and get 4 bottles for $34.95.  Use code 2023MADNESS at checkout",
+		"p": "2023MADNESS ",
+		"b": [],
+		"c": []
+	}
+}

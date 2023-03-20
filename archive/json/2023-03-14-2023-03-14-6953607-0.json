@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6953607",
+	"startDate": "2023-03-14",
+	"endDate": "2023-03-14",
+	"status": "0",
+	"content": {
+		"v": "Feeling lucky? Get 10% off 6+ bottles! // Today Only for St. Patty’s Day. Use code LUCKOTHEIRISH at checkout",
+		"p": "LUCKOTHEIRISH ",
+		"b": [],
+		"c": []
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6959362",
+	"startDate": "2023-03-20",
+	"endDate": "2023-03-20",
+	"status": "0",
+	"content": {
+		"v": "Feeling lucky? Get 10% off 6+ bottles! // Today Only for St. Patty’s Day. Use code IRISHLUCK at checkout",
+		"p": "IRISHLUCK",
+		"b": [],
+		"c": []
+	}
+}

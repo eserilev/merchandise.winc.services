@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6953598",
+	"startDate": "2023-03-14",
+	"endDate": "2023-04-03",
+	"status": "0",
+	"content": {
+		"v": "Get'cha 4 bottles for $24.95. Use code MADNESS23 at checkout",
+		"p": "MADNESS23 ",
+		"b": [],
+		"c": []
+	}
+}

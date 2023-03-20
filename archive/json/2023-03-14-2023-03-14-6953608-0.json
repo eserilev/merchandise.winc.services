@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6953608",
+	"startDate": "2023-03-14",
+	"endDate": "2023-03-14",
+	"status": "0",
+	"content": {
+		"v": "We're offering a deal so good it's almost as if the leprechauns left a pot of gold on our doorstep with 10% 6+ bottles with code TEXTOFTHEIRISH",
+		"p": "TEXTOFTHEIRISH",
+		"b": [],
+		"c": []
+	}
+}

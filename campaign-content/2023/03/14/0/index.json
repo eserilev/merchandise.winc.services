@@ -490,6 +490,48 @@
 			"p": "00763FB",
 			"b": [],
 			"c": []
+		},
+		"6953598": {
+			"v": "Get'cha 4 bottles for $24.95. Use code MADNESS23 at checkout",
+			"p": "MADNESS23 ",
+			"b": [],
+			"c": []
+		},
+		"6953603": {
+			"v": "Come back and get 4 bottles for $29.95. Use code MADNESS2023 at checkout",
+			"p": "MADNESS2023 ",
+			"b": [],
+			"c": []
+		},
+		"6953604": {
+			"v": "Come back and get 4 bottles for $34.95.  Use code 2023MADNESS at checkout",
+			"p": "2023MADNESS ",
+			"b": [],
+			"c": []
+		},
+		"6953606": {
+			"v": "Get'cha Head In The Game get 4 🍷for $24.95 with code 23MADNESS",
+			"p": "23MADNESS",
+			"b": [],
+			"c": []
+		},
+		"6953607": {
+			"v": "Feeling lucky? Get 10% off 6+ bottles! // Today Only for St. Patty’s Day. Use code LUCKOTHEIRISH at checkout",
+			"p": "LUCKOTHEIRISH ",
+			"b": [],
+			"c": []
+		},
+		"6953608": {
+			"v": "We're offering a deal so good it's almost as if the leprechauns left a pot of gold on our doorstep with 10% 6+ bottles with code TEXTOFTHEIRISH",
+			"p": "TEXTOFTHEIRISH",
+			"b": [],
+			"c": []
+		},
+		"6956026": {
+			"v": "Get 4 bottles for $29.95. Use code AMASSxWINC at checkout",
+			"p": "AMASSxWINC",
+			"b": [],
+			"c": []
 		}
 	}
 }

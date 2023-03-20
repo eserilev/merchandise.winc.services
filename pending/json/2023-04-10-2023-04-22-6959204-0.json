@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6959204",
+	"startDate": "2023-04-10",
+	"endDate": "2023-04-22",
+	"status": "0",
+	"content": {
+		"v": "Take 15% off 12 Bottles. Use code SPRINGFLING23 at checkout.",
+		"p": "SPRINGFLING23",
+		"b": [],
+		"c": []
+	}
+}

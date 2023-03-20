@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6956026",
+	"startDate": "2023-03-03",
+	"endDate": "2023-03-28",
+	"status": "0",
+	"content": {
+		"v": "Get 4 bottles for $29.95. Use code AMASSxWINC at checkout",
+		"p": "AMASSxWINC",
+		"b": [],
+		"c": []
+	}
+}

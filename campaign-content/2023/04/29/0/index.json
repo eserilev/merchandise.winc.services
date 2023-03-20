@@ -490,6 +490,24 @@
 			"p": "00763FB",
 			"b": [],
 			"c": []
+		},
+		"6955426": {
+			"v": "Get 4 bottles for $29.95. Use promo code APRILSHOWERS23 at checkout",
+			"p": "APRILSHOWERS23",
+			"b": [],
+			"c": []
+		},
+		"6955430": {
+			"v": "Get 4 bottles for $29.95. Use promo code 23APRILSHOWERS at checkout",
+			"p": "23APRILSHOWERS",
+			"b": [],
+			"c": []
+		},
+		"6955433": {
+			"v": "Rain, rain, go away! ☔ or ☀️Get 4 🍷for $29.95 with code APRIL23SHOWERS\n",
+			"p": "APRIL23SHOWERS",
+			"b": [],
+			"c": []
 		}
 	}
 }
