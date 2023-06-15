@@ -1,0 +1,15 @@
+{
+	"delete": false,
+	"replace": true,
+	"default": false,
+	"campaign": "6961575",
+	"startDate": "2023-03-17",
+	"endDate": "2023-03-24",
+	"status": "0",
+	"content": {
+		"v": "",
+		"p": "leprechaunluck",
+		"b": [],
+		"c": []
+	}
+}

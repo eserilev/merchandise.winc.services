@@ -1,0 +1,40 @@
+{
+	"debug": "",
+	"v": "Save 15% on our 'Spring Fling' 12-pack with code SPRING23FLING.",
+	"p": "",
+	"b": [
+		{
+			"h1": "Spring Fling 12-Pack",
+			"d": "Toast 🍷 to Warmer Weather.",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/springflingtwelve"
+			},
+			"f": "black",
+			"t": 2,
+			"i": {
+				"1x": "/v/assets/managed/marketing/2023/04/01/default/Spring12pk - Mobile.jpg",
+				"2x": "/v/assets/managed/marketing/2023/04/01/default/Spring12pk - Desktop.jpg",
+				"3x": "/v/assets/managed/marketing/2023/04/01/default/Spring12pk - Desktop.jpg"
+			}
+		}
+	],
+	"c": [
+		{
+			"h1": "Spring Fling 12-Pack",
+			"d": "Toast 🍷 to Warmer Weather.",
+			"b": "Shop now",
+			"a": {
+				"m": "navigate",
+				"id": "/wines/packs/springflingtwelve"
+			},
+			"i": {
+				"1x": "/v/assets/managed/marketing/2023/04/01/default/Spring Self Giveback Card - 12Pack.jpg",
+				"2x": "/v/assets/managed/marketing/2023/04/01/default/Spring Self Giveback Card - 12Pack.jpg",
+				"3x": "/v/assets/managed/marketing/2023/04/01/default/Spring Self Giveback Card - 12Pack.jpg"
+			}
+		}
+	],
+	"campaigns": {}
+}
